@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes gradienteAnimado {
+    0% { background: linear-gradient(30deg, #922222, #000000); }
+    100% { background: linear-gradient(45deg, #922222, #000000); }
+}
+
+body {
+    animation: gradienteAnimado 30s infinite;
+    background-size: 200% 200%;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    font-size: large;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container {
+    font-family: "Montserrat", sans-serif;
+}
+
+.title {
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 17.5%;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+    padding: 8px 0;
+}
+
+.articles article img:hover {
+    cursor: pointer;
+}
+
+.articles article p {
+    margin: 8px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.updates .articles article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+
+form button{
+    margin-bottom: 24px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline-color: white;
+}
+
+footer {
+    background-color: #000;
+    padding: 24px 0;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    font-size: large;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+
+footer nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+footer nav li img {
+    height: 24px;
+    padding-left: 8px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
