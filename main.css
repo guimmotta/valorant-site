@@ -152,3 +152,7 @@ footer .container {
     justify-content: space-between;
     align-items: center;
 }
+
+footer img:hover {
+    cursor: pointer;
+}
